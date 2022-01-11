@@ -1,0 +1,14 @@
+{
+    "name": "krulkamyl/ipdata-lookup",
+    "description": "Extension to helping geography data from IP address.",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload":{
+        "psr-4": {
+            "IPDataExtension\\": "src/"
+        }
+    }
+}
